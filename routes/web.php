@@ -8,5 +8,5 @@ use App\Http\Controllers\ProjectController;
 Route::get('/', [TypeController :: class, 'index'])
     -> name('type.index');
 
-    Route::get('/projects', [ProjectController :: class, 'index'])
+Route::get('/projects', [ProjectController :: class, 'index'])
     -> name('project.index');
